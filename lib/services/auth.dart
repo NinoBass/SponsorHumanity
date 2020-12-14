@@ -70,7 +70,7 @@ class Auth implements AuthBase {
         final userCredential = await _firebaseAuth.signInWithCredential(
           FacebookAuthProvider.credential( accessToken.token ));
         return userCredential.user;
-          break;
+        break;
       case FacebookLoginStatus.Cancel:
         throw FirebaseAuthException( 
           code: 'ERROR_ABORTED_BY_USER',
@@ -84,6 +84,7 @@ class Auth implements AuthBase {
         );
         break;
       default: 
+        print('Unimplemented Errror case');
         throw UnimplementedError();
     }
   }
@@ -93,8 +94,8 @@ class Auth implements AuthBase {
     final googleSignIn = GoogleSignIn();
     await googleSignIn.signOut();
 
-    final facebookSignIn = FacebookLogin();
-    await facebookSignIn.logOut();
+    final facebookLogin = FacebookLogin();
+    await facebookLogin.logOut();
     
     await _firebaseAuth.signOut();
   }
