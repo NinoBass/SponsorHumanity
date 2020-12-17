@@ -37,7 +37,7 @@ void _signInWithEmail( BuildContext context ) {
   Navigator.of( context ).push( 
     MaterialPageRoute<void>(
       fullscreenDialog: true,
-      builder: ( context ) => EmailSignInPage(),
+      builder: ( context ) => EmailSignInPage( auth: auth ),
     ),
   );
 

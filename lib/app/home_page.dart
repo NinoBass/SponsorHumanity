@@ -28,7 +28,16 @@ class HomePage extends StatelessWidget {
               onPressed: _signOut,
             ),
           ], 
-        )
+        ),
+        body: Center(
+          child: Text("Homepage Placeholder",
+            style: TextStyle(
+              color: Colors.black,
+              fontSize: 40.0,
+              fontStyle: FontStyle.italic,
+            ),
+          ),
+        ), 
     );
   } // Widget
 } // StatelessWidget
