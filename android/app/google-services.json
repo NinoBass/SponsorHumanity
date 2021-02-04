@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "979612043690",
+    "project_id": "sponsor-humanity",
+    "storage_bucket": "sponsor-humanity.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979612043690:android:c50d829270f4077716c3d3",
+        "android_client_info": {
+          "package_name": "com.example.sponsorhumanity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979612043690-ptlgmjvou7igpilte0nvobitv2ul9290.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sponsorhumanity",
+            "certificate_hash": "6c57fa219e527a4e95a7a0581c9fb6eca2e58b66"
+          }
+        },
+        {
+          "client_id": "979612043690-2hj2m3pqn62f5nhc6clg760nica8m9fa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDagVRPcP5Iz7AMNtqDlPNxkF8FZAKlrQk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979612043690-2hj2m3pqn62f5nhc6clg760nica8m9fa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
